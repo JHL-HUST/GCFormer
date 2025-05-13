@@ -18,7 +18,7 @@ CUDA == 10.2
 
 You can run each command in "Solo.sh".
 
-You could change the hyper-parameters of NAGphormer if necessary.
+You could change the hyper-parameters of GCFormer if necessary.
 
 Due to the space limitation, please refer to this [link](https://drive.google.com/file/d/1i-cCsF1jEkJ9xNcEaOWftGkOZntAN4m5/view?usp=sharing) to download the datasets as well as pre-computing data. 
 Once you have done this, please put them into the corresponding folders (dataset, pre_features and pre_sample)
@@ -31,6 +31,8 @@ If you find this code useful, please consider citing the original work by author
 @inproceedings{gcformer, 
 author = {Jinsong Chen and Hanpeng Liu and John E. Hopcroft and Kun He},
  title = {Leveraging Contrastive Learning for Enhanced Node Representations in Tokenized Graph Transformers}, 
- booktitle = {Proceedings of the 38th Annual Conference on Neural Information Processing Systems}, 
+ booktitle = {Proceedings of the 38th Annual Conference on Neural Information Processing Systems},
+ volume = {37},
+ pages = {85824--85845}, 
  year = {2024} }
 ```
